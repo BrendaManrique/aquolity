@@ -1,0 +1,219 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+  height: 100%;
+  font-family: Tahoma, Geneva, sans-serif; 
+
+}
+
+body {
+  padding-top: 50px;
+ /* body padding for fixed top nav */
+}
+h3{
+ font-family: Impact, Charcoal, sans-serif; 
+ /*Tahoma, Geneva, sans-serif;*/
+  /*font-weight: bold;*/
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar{
+  height: 60px;
+/*    background-color: #1F4965;
+    border-color: #1B3A4F;
+*/
+}
+
+.navbar-brand{
+  color : #fff !important;
+  font-family: 'Pacifico';
+  font-size: 2.3em;
+  padding-top: 10px;
+}
+.navbar-brand:hover{
+  /*color : #e1e1e1 !important;*/
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+#img-brand{
+  width: 30px;
+  height: 45px;
+}
+
+.navbar-ex1-collapse a{
+    color: white !important;
+    /*font-weight: bold;*/
+    font-size: 20px;
+    background-color:#222;
+}
+.navbar-right{
+  font-family: Impact, Charcoal, sans-serif; 
+}
+.navbar-right a:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.dropdown-menu{
+  background-color: #222;
+}
+.dropdown-menu a:hover{
+  color:#ffffff !important;
+  background-color: #222 !important;
+
+}
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.tab-pane {
+  margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+  padding: 50px 0;
+}
+
+.section-colored {
+  background-color: #222;
+  color: white;
+}
+.section-colored h2{
+  font-weight: bold;
+}
+.sidebar {
+  margin-top: 40px;
+}
+
+.sidebar ul {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 70%;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+  
+}
+.carousel-caption{
+  margin-bottom: 120px;
+}
+.carousel-caption h1{
+  color: #F5FFFF;
+  /*5ED6E3;*/
+   /* #1CCFEA;*/
+  /*#96E4ED;*/
+  font-family: 'Pacifico';
+  font-size: 60px;
+  text-shadow: 3px 3px 3px #111;
+  font-weight:100;
+}
+#opttrio {
+  text-align:center;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+  margin-bottom: 45px;
+}
+
+.tooltip-social a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.facebook-link a:hover {
+  color: #3b5998;
+}
+
+.linkedin-link a:hover {
+  color: #007fb1;
+}
+
+.twitter-link a:hover {
+  color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+  color: #d14836;
+}
+/* ------------ About -------------*/
+.navbar-brand-dark{
+  color : #000 !important;
+  font-family: 'Pacifico';
+  font-size: 2em;
+}
+#img-author {
+  border-radius: 100%;
+  box-shadow: 2px 3px gray;
+ }
+ #img-project{
+    width: 750px;
+    height: 350px;
+ }
+
+/* Service Page Styles */
+.service-icon {
+  font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+  font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+  font-size: 4em;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+  margin: 50px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+  .carousel {
+    height: 70%;
+ /* increases the carousel height so it looks good on phones */
+  }
+}
